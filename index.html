@@ -40,46 +40,10 @@ function checkCookie() {
 </script>  
   
 </head>
-<body onload="checkCookie()"></body>
-
-<h1>The Window Object</h1>
-<h2>The localStorage Property</h2>
-
-<!-- //////////////////   -->  
-<p>Saved name is:</p>
-<p id="demo"></p>
-
-  
-<script>
-// Set Item
-localStorage.setItem("lastname", "Smith");
-// Retrieve
-document.getElementById("demo").innerHTML = localStorage.getItem("lastname");
-</script>
-
-  
-<!-- //////////////////   -->
-<p><button onclick="clickCounter()" type="button">Click me!</button></p>
-
-<p>Number of clicks:</p>
-<p id="demo1"></p>
-
-<p>Click the button to see the counter increase.</p>
-<p>Close the browser tab (or window), and try again, and the counter will continue to count (is not reset).</p>
+<body onload="checkCookie()">
 
 <script type="text/javascript" src = "https://gayatri-priyadarsini.github.io/gayatri.github.io/demo_script.js"> </script>
   
-<!-- ///////////////////   -->
   
- <p id="demo2"></p>
-
-<script>
-sessionStorage.setItem("name","John Doe");
-document.getElementById("demo2").innerHTML = sessionStorage.getItem("name");
-</script>
-
-  
-<!-- ///////////////////   -->
-
 </body>
 </html>
