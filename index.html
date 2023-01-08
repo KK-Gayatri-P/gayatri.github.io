@@ -67,18 +67,7 @@ document.getElementById("demo").innerHTML = localStorage.getItem("lastname");
 <p>Click the button to see the counter increase.</p>
 <p>Close the browser tab (or window), and try again, and the counter will continue to count (is not reset).</p>
 
-<script>
-clickCounter();
-
-function clickCounter() {
-  if (localStorage.clickcount) {
-    localStorage.clickcount = Number(localStorage.clickcount)+1;
-  } else {
-    localStorage.clickcount = 1;
-  }
-  document.getElementById("demo1").innerHTML = localStorage.clickcount;
-}
-</script>
+<script src = "jscript.js"> </script>
   
 <!-- ///////////////////   -->
   
